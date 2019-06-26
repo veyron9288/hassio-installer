@@ -9,10 +9,10 @@ DOCKER_SERVICE=docker.service
 DATA_SHARE=/usr/share/hassio
 CONFIG=/etc/hassio.json
 URL_VERSION="https://s3.amazonaws.com/hassio-version/stable.json"
-URL_BIN_HASSIO="https://github.com/veyron9288/hassio-installer/tree/master/files/hassio-supervisor"
-URL_BIN_APPARMOR="https://github.com/veyron9288/hassio-installer/tree/master/files/hassio-apparmor"
-URL_SERVICE_HASSIO="https://github.com/veyron9288/hassio-installer/tree/master/files/hassio-supervisor.service"
-URL_SERVICE_APPARMOR="https://github.com/veyron9288/hassio-installer/tree/master/files/hassio-apparmor.service"
+URL_BIN_HASSIO="https://raw.githubusercontent.com/home-assistant/hassio-installer/master/files/hassio-supervisor"
+URL_BIN_APPARMOR="https://raw.githubusercontent.com/home-assistant/hassio-installer/master/files/hassio-apparmor"
+URL_SERVICE_HASSIO="https://raw.githubusercontent.com/home-assistant/hassio-installer/master/files/hassio-supervisor.service"
+URL_SERVICE_APPARMOR="https://raw.githubusercontent.com/home-assistant/hassio-installer/master/files/hassio-apparmor.service"
 URL_APPARMOR_PROFILE="http://s3.amazonaws.com/hassio-version/apparmor.txt"
 
 # Check env
